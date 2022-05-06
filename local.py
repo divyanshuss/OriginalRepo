@@ -6,6 +6,7 @@ import subprocess
 
 print("content-type: text/html")
 print()
+print("hell")
 
 mydata = cgi.FieldStorage()
 command = mydata.getvalue("x")
